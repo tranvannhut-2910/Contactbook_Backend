@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const contactsRouter = require("./app/routers/contact.route");
-const ApiError = require("./app/app-error");
+const ApiError = require("./app/api-error");
 
 const app = express();
 
